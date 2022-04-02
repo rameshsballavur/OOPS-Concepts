@@ -21,6 +21,7 @@ public class Demo {
 			validate(23);
 			System.out.println("=========================");
 			validate(13);
+			validate(40);
 		} catch (InvalidAgeException e) {
 			System.out.println("Exception occured "+e);
 		}
